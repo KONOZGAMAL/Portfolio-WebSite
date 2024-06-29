@@ -1,3 +1,4 @@
+import { FiDownload } from "react-icons/fi";
 export default function About() {
   return (
     <div className="relative lg:top-[-120px] mb-[80px] lg:mb-5">
@@ -72,6 +73,22 @@ export default function About() {
                   width={"50px"}
                 />
                 konuzgamal12gmail.com
+              </li>
+              <li className="flex gap-3 items-center text-lg md:text-xl text-wrap text-[#3e6e6f]">
+              <img
+              src="./assets/wired-lineal-245-edit-document.gif"
+              alt="logo"
+              style={{ color: "transparent" }}
+              height={"50px"}
+              width={"50px"}
+            />
+              <a
+                  download="Resume.pdf"
+                  href="./Resume.pdf"
+                  className="flex items-center gap-2"
+                >
+                  Download CV <FiDownload />
+                </a>
               </li>
             </ul>
           </div>

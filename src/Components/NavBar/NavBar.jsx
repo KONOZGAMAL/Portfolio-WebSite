@@ -37,8 +37,8 @@ export default function NavBar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/cv"}>
-            <img src="./assets/wired-lineal-245-edit-document.gif" alt="logo"
+          <NavLink to={"/contact"}>
+            <img src="./assets/wired-lineal-1676-telephone-call-hand.gif" alt="logo"
             className="text-transparent"  height={'50px'}
             width={'50px'} />
           </NavLink>

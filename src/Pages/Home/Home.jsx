@@ -28,6 +28,7 @@ function TypedEffect() {
           {" "}
           {text2}
         </h2>
+        <p className="md:text-[17px] text-[13px] capitalize text-[#3e6e6f]">Interactive, Responsive, User-Friendly, Dynamic, Modern.</p>
       </div>
     </>
   );
