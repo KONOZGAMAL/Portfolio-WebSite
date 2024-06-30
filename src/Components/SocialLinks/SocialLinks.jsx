@@ -12,12 +12,14 @@ export default function SocialLinks() {
             "https://www.linkedin.com/in/konuz-gamal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           }
           target="_blank"
+          aria-label="Linkedin"
         >
           <FaLinkedin />
         </Link>
       </li>
       <li className="text-3xl hover:opacity-40 text-secondary py-1 text-[34px]">
-        <Link to={"http://github.com/KONOZGAMAL"} target="_blank">
+        <Link to={"http://github.com/KONOZGAMAL"} target="_blank"
+        aria-label="Github">
           <FaSquareGithub />
         </Link>
       </li>
@@ -27,6 +29,7 @@ export default function SocialLinks() {
             "https://api.whatsapp.com/send/?phone=2001114752381&text&type=phone_number&app_absent=0"
           }
           target="_blank"
+          aria-label="Whatsapp"
         >
           <FaSquareWhatsapp />
         </Link>
@@ -37,6 +40,7 @@ export default function SocialLinks() {
             "https://www.facebook.com/profile.php?id=100038599728019&mibextid=ZbWKwL"
           }
           target="_blank"
+          aria-label="Facebook"
         >
           <FaSquareFacebook />
         </Link>
