@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { toast } from "react-toastify";
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -24,12 +25,20 @@ export default function Contact() {
       .send(serviceId, templateId, template_params, publicKey)
       .then((response) => {
         console.log("Email sent successfully!", response);
+        toast.success("Thank you. Send a message", {
+          hideProgressBar: true,
+          position: "top-right",
+        });
         setName("");
         setEmail("");
         setMessage("");
         setPhone("");
       })
       .catch((error) => {
+        toast.error("Transmission failed", {
+          hideProgressBar: true,
+          position: "top-right",
+        });
         console.error("Error sending email:", error);
       });
   };
@@ -57,6 +66,7 @@ export default function Contact() {
                     type="text"
                     placeholder="Full Name"
                     value={name}
+                    required
                     onChange={(e) => setName(e.target.value)}
                     className="border-2 text-white p-2 w-full focus:border-[#6fc3c5] outline-none bg-transparent"
                   />
@@ -66,6 +76,7 @@ export default function Contact() {
                     type="email"
                     placeholder="E-mail address"
                     value={email}
+                    required
                     onChange={(e) => setEmail(e.target.value)}
                     className="border-2 text-white p-2 w-full focus:border-[#6fc3c5] outline-none bg-transparent"
                   />
@@ -87,6 +98,7 @@ export default function Contact() {
                     rows="3"
                     placeholder="Your message here"
                     value={message}
+                    required
                     onChange={(e) => setMessage(e.target.value)}
                     className="border-2 text-white p-2 py-1 w-full focus:border-[#6fc3c5] outline-none bg-transparent"
                   ></textarea>
@@ -105,4 +117,3 @@ export default function Contact() {
     </>
   );
 }
-

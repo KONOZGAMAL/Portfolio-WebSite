@@ -5,6 +5,7 @@ import About from "./Pages/About/About";
 import Projects from "./Pages/Projects/Projects";
 import Skills from "./Pages/Skills/Skills";
 import Layouts from "./Layouts/Layouts"
+import { ToastContainer } from "react-toastify";
 function App() {
 
   const router = createBrowserRouter([
@@ -22,6 +23,7 @@ function App() {
   ]);
   return (
     <>
+    <ToastContainer />
     <RouterProvider router={router} />
     </>
   )
