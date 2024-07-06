@@ -7,6 +7,8 @@ import { RiTailwindCssLine } from "react-icons/ri";
 import { IoLogoSass } from "react-icons/io";
 import { TbBrandRedux } from "react-icons/tb";
 import { VscSymbolClass } from "react-icons/vsc";
+import { BiLogoFirebase } from "react-icons/bi";
+import { SiStrapi } from "react-icons/si";
 import { useMemo } from "react";
 export default function Skills() {
   const skillsData = useMemo(
@@ -20,6 +22,8 @@ export default function Skills() {
     { id: 7, text: "sass", icon: <IoLogoSass /> },
     { id: 8, text: "tailwind", icon: <RiTailwindCssLine /> },
     { id: 9, text: "OOP", icon: <VscSymbolClass /> },
+    { id: 10, text: "Firebase", icon: <BiLogoFirebase/>},
+    { id: 11, text: "Strapi", icon: <SiStrapi /> },
   ],[]);
   return (
     <div className="relative lg:top-[-100px] mb-[80px] lg:mb-5 container mx-auto px-4">

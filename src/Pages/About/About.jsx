@@ -32,17 +32,6 @@ export default function About() {
                 Konuz Gamal Mohammed
               </li>
               <li className="flex gap-3 items-center text-lg md:text-xl text-wrap text-[#3e6e6f]">
-                {" "}
-                <img
-                  src="./assets/wired-lineal-1106-birthday-hat.gif"
-                  alt="logo"
-                  style={{ color: "transparent" }}
-                  height={"50px"}
-                  width={"50px"}
-                />
-                1 - 2 - 1998{" "}
-              </li>
-              <li className="flex gap-3 items-center text-lg md:text-xl text-wrap text-[#3e6e6f]">
                 <img
                   src="./assets/wired-lineal-18-location-pin.gif"
                   alt="logo"

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaSquareWhatsapp } from "react-icons/fa6";
-import { FaSquareFacebook } from "react-icons/fa6";
 export default function SocialLinks() {
   return (
     <ul className="fixed left-2 z-10 top-[40%]">
@@ -32,17 +31,6 @@ export default function SocialLinks() {
           aria-label="Whatsapp"
         >
           <FaSquareWhatsapp />
-        </Link>
-      </li>
-      <li className="text-3xl hover:opacity-40 text-blue-500 py-1 text-[34px]">
-        <Link
-          to={
-            "https://www.facebook.com/profile.php?id=100038599728019&mibextid=ZbWKwL"
-          }
-          target="_blank"
-          aria-label="Facebook"
-        >
-          <FaSquareFacebook />
         </Link>
       </li>
     </ul>
