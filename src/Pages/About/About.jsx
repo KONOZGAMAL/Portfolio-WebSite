@@ -5,9 +5,12 @@ export default function About() {
       <div className="container mx-auto px-5 md:px-14 justify-center items-center lg:items-start gap-4">
         <div className="flex flex-col justify-center items-center gap-4">
           <p className="md:w-[70%] tracking-wider px-3  mx-auto text-2xl text-center leading-10 text-[#5ba9ab] ">
-            I'm a Front-End developer, I'm in love with web development All my
-            experience in it is through what I learned from ITI institute and
-            educational channels on YouTube. Iam available onsite and remote
+          I'm a Front-End Developer with knowledge in designing,
+           developing, and deploying web applications using HTML5,
+            CSS3, Bootstrap, Tailwind CSS, JavaScript, React JS and Seeking a challenging 
+            opportunity as a Software Engineer in a company with a good reputation that will
+             add to my Knowledge,
+           Skills, and Experience on a day-to-day basis.
           </p>
           <div className="flex items-center flex-col lg:flex-row justify-center gap-2 mx-auto">
             <div>
