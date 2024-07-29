@@ -1,6 +1,7 @@
 import "./Projects.css";
 import projecyData from "./Data";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   const [typePro, setTypePro] = useState("all");
@@ -29,8 +30,10 @@ export default function Projects() {
           Javascript
         </p>
       </div>
-      <div className="flex flex-wrap justify-center items-center
-       text-2xl text-white mt-5 w-full  md:w-[63%] h-[auto] mx-auto">
+      <div
+        className="flex flex-wrap justify-center items-center
+      text-2xl text-white mt-5 w-full  md:w-[63%] h-[auto] mx-auto"
+      >
         {projecyData.map(
           (items) =>
             (typePro == "all" || items.type == typePro) && (
@@ -38,15 +41,19 @@ export default function Projects() {
                 className="cartProject border p-4 sm:w-full lg:w-1/3 relative"
                 key={items.id}
               >
-                <a
-                  href={items.link}
-                  target="_blank"
+                <Link
+                  to={`/projects/${items?.id}`}
                   className="image_project relative w-[280px] md:w-full
                   h-[250px] max-h-[400px] inline-flex items-center justify-center
                   rounded-md bg-white overflow-hidden border-2 border-cyan-700"
                 >
                   <img src={items.img} alt="project" className="image w-full" />
-                </a>
+                  <div className="mainClass">
+                    <div className="flex items-center justify-center text-slate-950">
+                      See More
+                    </div>
+                  </div>
+                </Link>
               </div>
             )
         )}

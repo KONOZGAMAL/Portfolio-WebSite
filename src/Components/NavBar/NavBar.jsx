@@ -1,26 +1,30 @@
 import { NavLink } from "react-router-dom";
-
+import wiredLineal from "../../../public/assets/wired-lineal-63-home.gif";
+import avatar from "../../../public/assets/wired-lineal-268-avatar-man.gif";
+import avatar2 from "../../../public/assets/wired-lineal-153-bar-chart.gif";
+import avatar3 from "../../../public/assets/wired-lineal-478-computer-display.gif";
+import avatar4 from "../../../public/assets/wired-lineal-1676-telephone-call-hand.gif";
 export default function NavBar() {
   return (
     <div className="flex justify-center fixed bottom-2 w-[100%] z-10">
       <ul className="flex justify-center items-center gap-5 bg-[#3a6f9573] p-4 rounded-xl border-2 border-cyan-800">
         <li>
           <NavLink to={"/"}>
-            <img src="./assets/wired-lineal-63-home.gif" alt="logo"
+            <img src={wiredLineal} alt="logo"
             className="text-transparent" height={'50px'}
             width={'50px'} />
           </NavLink>
         </li>
         <li>
           <NavLink to={"/about"}>
-            <img src="./assets/wired-lineal-268-avatar-man.gif" alt="logo"
+            <img src={avatar} alt="logo"
             className="text-transparent" height={'50px'}
             width={'50px'}/>
           </NavLink>
         </li>
         <li>
           <NavLink to={"/skills"}>
-            <img src="./assets/wired-lineal-153-bar-chart.gif" alt="logo" 
+            <img src={avatar2} alt="logo" 
             className="text-transparent" height={'50px'}
             width={'50px'}/>
           </NavLink>
@@ -28,7 +32,7 @@ export default function NavBar() {
         <li>
           <NavLink to={"/projects"}>
             <img
-              src="./assets/wired-lineal-478-computer-display.gif"
+              src={avatar3}
               alt="logo"
              className="text-transparent"
               height={'50px'}
@@ -38,7 +42,7 @@ export default function NavBar() {
         </li>
         <li>
           <NavLink to={"/contact"}>
-            <img src="./assets/wired-lineal-1676-telephone-call-hand.gif" alt="logo"
+            <img src={avatar4} alt="logo"
             className="text-transparent"  height={'50px'}
             width={'50px'} />
           </NavLink>

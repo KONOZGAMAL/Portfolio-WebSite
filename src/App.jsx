@@ -6,6 +6,7 @@ import Projects from "./Pages/Projects/Projects";
 import Skills from "./Pages/Skills/Skills";
 import Layouts from "./Layouts/Layouts"
 import { ToastContainer } from "react-toastify";
+import ProjectDetails from './Pages/ProjectDetails/ProjectDetails';
 function App() {
 
   const router = createBrowserRouter([
@@ -16,6 +17,7 @@ function App() {
         { path: "/", element: <Home/> },
         { path: "/about", element: <About/> },
         { path: "/projects", element: <Projects/> },
+        { path: "/projects/:id", element: <ProjectDetails/> },
         { path: "/skills", element: <Skills/> },
         { path: "/contact", element: <Contact/> },
       ],
