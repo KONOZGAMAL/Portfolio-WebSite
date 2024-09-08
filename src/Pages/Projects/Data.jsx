@@ -33,6 +33,17 @@ const projecyData = [
   {
     id: "4",
     type: "react",
+    img: "./assets/DashboardReact.png",
+    title: "React-Admin-Dashboard",
+    tools: ["Reactjs", "material-ui", "css","react-hook-form","nivo"],
+    link: "https://react-admin-dashboard-tau-nine.vercel.app/",
+    github: "https://github.com/KONOZGAMAL/React-Admin-Dashboard",
+    details:
+      "React | Admin-Dashboards",
+  },
+  {
+    id: "5",
+    type: "react",
     img: "./assets/hospital.png",
     title: "Hospital-Website",
     tools: ["Reactjs", "tailwindcss", "i18next", "Aos"],
@@ -42,7 +53,7 @@ const projecyData = [
       "Welcome to the Hospital Landing Page project, built with React.js, Tailwind CSS, i18next , and Aos. This modern and responsive landing page is designed for hospitals and healthcare institutions to showcase their services and provide essential information to visitors.",
   },
   {
-    id: "5",
+    id: "6",
     type: "react",
     img: "./assets/millionaire-quiz-app-reactjs.png",
     title: "millionaire-quiz-app-reactjs",
@@ -53,7 +64,7 @@ const projecyData = [
     images : [],
   },
   {
-    id: "6",
+    id: "7",
     type: "js",
     img: "./assets/template-one-leon-vercel-app-html-css.png",
     title: "leon-template-one",
@@ -63,7 +74,7 @@ const projecyData = [
     details: "",
   },
   {
-    id: "7",
+    id: "8",
     type: "react",
     img: "./assets/movies-app-react-js.png",
     title: "movies-app-react-js",
@@ -73,7 +84,7 @@ const projecyData = [
     details: "A responsive and user-friendly movie app built with React, utilizing The Movie Database (TMDb) API to fetch and display movie information. Search for your favorite movies, explore details, and enjoy a seamless movie browsing experience.",
   },
   {
-    id: "8",
+    id: "9",
     type: "js",
     img: "./assets/full-website-barber.png",
     title: "full-website-barber",
@@ -83,7 +94,7 @@ const projecyData = [
     details: "",
   },
   {
-    id: "9",
+    id: "10",
     type: "js",
     img: "./assets/responsive-animate-food.png",
     title: "responsive-animate-food",
@@ -94,7 +105,7 @@ const projecyData = [
     details: "",
   },
   {
-    id: "10",
+    id: "11",
     type: "js",
     img: "./assets/dashboard-html-css.png",
     title: "Dashboard",
