@@ -1,6 +1,6 @@
 import "./Projects.css";
 import projecyData from "./Data";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import load from "../../../public/assets/load.gif";
 
@@ -8,11 +8,16 @@ export default function Projects() {
   const [typePro, setTypePro] = useState("all");
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    if (projecyData) {
-      setLoading(false);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (projecyData) {
+  //     setLoading(false);
+  //   }
+  // }, []);
+ 
+  setTimeout(() => {
+    setLoading(false);
+  }, 4000);
+
 
   const handleBtn = (type) => {
     setTypePro(type);
