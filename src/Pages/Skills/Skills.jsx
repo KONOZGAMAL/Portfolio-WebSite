@@ -7,12 +7,14 @@ import { RiTailwindCssLine } from "react-icons/ri";
 import { IoLogoSass } from "react-icons/io";
 import { TbBrandRedux } from "react-icons/tb";
 import { VscSymbolClass } from "react-icons/vsc";
+import { SiTypescript } from "react-icons/si";
 import { useMemo } from "react";
 export default function Skills() {
   const skillsData = useMemo(
     () =>  [
     { id: 1, text: "javascript", icon: <IoLogoJavascript /> },
     { id: 2, text: "react", icon: <IoLogoReact /> },
+    { id: 12, text: "TypeScript", icon: <SiTypescript /> },
     { id: 3, text: "redux-toolkit", icon: <TbBrandRedux /> },
     { id: 4, text: "html", icon: <IoLogoHtml5 /> },
     { id: 5, text: "css", icon: <FaCss3Alt /> },

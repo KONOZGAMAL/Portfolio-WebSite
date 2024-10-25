@@ -7,7 +7,7 @@ export default function About() {
           <p className="md:w-[70%] tracking-wider px-3  mx-auto text-2xl text-center leading-10 text-[#5ba9ab] ">
           I'm a Front-End Developer with knowledge in designing,
            developing, and deploying web applications using HTML5,
-            CSS3, Bootstrap, Tailwind CSS, JavaScript, React JS and Seeking a challenging 
+            CSS3, Bootstrap, Tailwind CSS, JavaScript,TypeScript, React JS and Seeking a challenging 
             opportunity as a Software Engineer in a company with a good reputation that will
              add to my Knowledge,
            Skills, and Experience on a day-to-day basis.

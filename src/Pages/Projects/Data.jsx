@@ -2,6 +2,25 @@ const projecyData = [
   {
     id: "1",
     type: "react",
+    img: "./assets/rehla.png",
+    title: "Rehla-website",
+    tools: [
+      "Reactjs",
+      "Typescript",
+      "tailwindcss",
+      "reduxToolkit",
+      "swiper",
+      "framer-motion",
+      "axios",
+    ],
+    link: "https://rehla-gamma.vercel.app/",
+    github: "https://github.com/KONOZGAMAL/RealHouse",
+    details:
+      "Rehla is a website designed for users to sign in and manage their travel-related activities and information. It includes a login page, allowing users to securely access their accounts. Rehla likely offers features and tools geared towards enhancing travel planning and organization.",
+  },
+  {
+    id: "2",
+    type: "react",
     img: "./assets/real-house.png",
     title: "RealHouse",
     tools: ["Reactjs", "tailwindcss", "reduxToolkit", "firebase", "swiper"],
@@ -11,7 +30,7 @@ const projecyData = [
       "Real House is a comprehensive real estate website offering property listings for sales and rentals. It features detailed descriptions, high-quality images, virtual tours, and efficient communication tools for buyers. With advanced search filters and market insights, Real House simplifies finding the perfect property.",
   },
   {
-    id: "2",
+    id: "3",
     type: "react",
     img: "./assets/food-ecommerce-reactjs.png",
     title: "Food-E-commerce",
@@ -30,7 +49,7 @@ const projecyData = [
       "Welcome to GourmetBites, a dynamic and responsive food e-commerce website designed to deliver a seamless shopping experience across all screen sizes. Our platform offers a delectable selection of three types of burgers, mouth-watering sweets, and refreshing drinks.",
   },
   {
-    id: "3",
+    id: "4",
     type: "js",
     img: "./assets/e-commerce-project-js.png",
     title: "Ecommerce-Project-js",
@@ -41,7 +60,7 @@ const projecyData = [
       "An e-commerce website is an e-commerce platform that specializes in selling clothing, providing users with the ease of purchasing products online and accessing detailed information about each item. | Full Responsive",
   },
   {
-    id: "4",
+    id: "5",
     type: "react",
     img: "./assets/DashboardReact.png",
     title: "React-Admin-Dashboard",
@@ -51,7 +70,7 @@ const projecyData = [
     details: "React | Admin-Dashboards",
   },
   {
-    id: "5",
+    id: "6",
     type: "react",
     img: "./assets/hospital.png",
     title: "Hospital-Website",
@@ -62,7 +81,7 @@ const projecyData = [
       "Welcome to the Hospital Landing Page project, built with React.js, Tailwind CSS, i18next , and Aos. This modern and responsive landing page is designed for hospitals and healthcare institutions to showcase their services and provide essential information to visitors.",
   },
   {
-    id: "6",
+    id: "7",
     type: "react",
     img: "./assets/deserts.png",
     title: "desert safaritours",
@@ -74,7 +93,7 @@ const projecyData = [
     images: [],
   },
   {
-    id: "7",
+    id: "8",
     type: "react",
     img: "./assets/millionaire-quiz-app-reactjs.png",
     title: "millionaire-quiz-app-reactjs",
@@ -85,7 +104,7 @@ const projecyData = [
     images: [],
   },
   {
-    id: "8",
+    id: "9",
     type: "js",
     img: "./assets/template-one-leon-vercel-app-html-css.png",
     title: "leon-template-one",
@@ -95,7 +114,7 @@ const projecyData = [
     details: "",
   },
   {
-    id: "9",
+    id: "10",
     type: "react",
     img: "./assets/movies-app-react-js.png",
     title: "movies-app-react-js",
@@ -106,7 +125,7 @@ const projecyData = [
       "A responsive and user-friendly movie app built with React, utilizing The Movie Database (TMDb) API to fetch and display movie information. Search for your favorite movies, explore details, and enjoy a seamless movie browsing experience.",
   },
   {
-    id: "10",
+    id: "11",
     type: "js",
     img: "./assets/full-website-barber.png",
     title: "full-website-barber",
@@ -116,7 +135,7 @@ const projecyData = [
     details: "",
   },
   {
-    id: "11",
+    id: "12",
     type: "js",
     img: "./assets/responsive-animate-food.png",
     title: "responsive-animate-food",
@@ -127,7 +146,7 @@ const projecyData = [
     details: "",
   },
   {
-    id: "12",
+    id: "13",
     type: "js",
     img: "./assets/dashboard-html-css.png",
     title: "Dashboard",
