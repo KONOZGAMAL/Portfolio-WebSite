@@ -13,11 +13,10 @@ export default function Projects() {
   //     setLoading(false);
   //   }
   // }, []);
- 
+
   setTimeout(() => {
     setLoading(false);
   }, 4000);
-
 
   const handleBtn = (type) => {
     setTypePro(type);
@@ -36,6 +35,12 @@ export default function Projects() {
               onClick={() => handleBtn("all")}
             >
               All
+            </p>
+            <p
+              className={typePro == "nextJs" ? "btn active" : "btn"}
+              onClick={() => handleBtn("nextJs")}
+            >
+              NextJs
             </p>
             <p
               className={typePro == "react" ? "btn active" : "btn"}

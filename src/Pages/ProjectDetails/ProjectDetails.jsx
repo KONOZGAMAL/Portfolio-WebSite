@@ -1,6 +1,6 @@
 import { FaCode } from "react-icons/fa6";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import projecyData from "../Projects/Data";
 export default function ProjectDetails() {
   const { id } = useParams();
@@ -14,18 +14,20 @@ export default function ProjectDetails() {
               className="flex items-center justify-start flex-col text-2xl gap-4 text-white px-10 md:20"
             >
               <div className="w-full flex gap-4 flex-wrap">
-                <Link
-                  to={item.link}
+                <a
+                  href={item.link}
+                  target="_blank"
                   className="flex items-center gap-2 text-[15px] bg-orange-400 w-fit py-2 px-4 cursor-pointer"
                 >
                   Live Demo <FaExternalLinkAlt />
-                </Link>
-                <Link
-                  to={item.github}
+                </a>
+                <a
+                  href={item.github}
+                  target="_blank"
                   className="flex items-center gap-2 text-[15px] bg-orange-400 w-fit py-2 px-4 cursor-pointer"
                 >
                   Code <FaCode />
-                </Link>
+                </a>
               </div>
               <div className="w-full">
                 <span className="text-gray-500 text-[17px]">PROJECT</span>

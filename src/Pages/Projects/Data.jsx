@@ -1,5 +1,23 @@
 const projecyData = [
   {
+    id: "14",
+    type: "nextJs",
+    img: "./assets/yaqeen.png",
+    title: "Yaqeen-website",
+    tools: [
+      "Nextjs",
+      "Typescript",
+      "tailwindcss",
+      "axios",
+      "React Icon",
+      "RESTful API",
+    ],
+    link: "https://yaqeen-rho.vercel.app/",
+    github: "https://github.com/KONOZGAMAL/Yaqeen",
+    details:
+      "Explore Yaqeen's platform for Quranic verses, Hadiths, Azkar, and prayer schedules.",
+  },
+  {
     id: "1",
     type: "react",
     img: "./assets/rehla.png",

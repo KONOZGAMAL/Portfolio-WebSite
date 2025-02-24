@@ -17,15 +17,18 @@ export default function SocialLinks() {
         </Link>
       </li>
       <li className="text-3xl hover:opacity-40 text-secondary py-1 text-[34px]">
-        <Link to={"http://github.com/KONOZGAMAL"} target="_blank"
-        aria-label="Github">
+        <Link
+          to={"http://github.com/KONOZGAMAL"}
+          target="_blank"
+          aria-label="Github"
+        >
           <FaSquareGithub />
         </Link>
       </li>
       <li className="text-3xl hover:opacity-40 text-green-600 py-1 text-[34px]">
         <Link
           to={
-            "https://api.whatsapp.com/send/?phone=2001114752381&text&type=phone_number&app_absent=0"
+            "https://api.whatsapp.com/send/?phone=2001095092803&text&type=phone_number&app_absent=0"
           }
           target="_blank"
           aria-label="Whatsapp"
